@@ -43,3 +43,6 @@ I would like to thank my supervisor, Dr. Fanlin Meng, for his invaluable guidanc
 
 ## Contact
 For any questions about this project, feel free to contact me at rogerthant33@gmail.com
+
+## License
+This project is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the `LICENSE` file for details. Additional permissions may be required from the University of Manchester.
