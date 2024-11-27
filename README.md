@@ -19,7 +19,7 @@ This repository contains materials from my MSc Data Science dissertation, which 
 - The Low Carbon London dataset is not provided in this repository due to licensing restrictions. However, it can be accessed via the UK Data Service:  [Low Carbon London Dataset](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=7857).
 
 ## **Acknowledgements**
-I would like to thank my supervisor, Dr. Fanlin Meng, for his invaluable guidance and encouragement throughout this project. Special thanks to my family, friends, and colleagues for their support.
+I would like to thank my supervisor, Dr. Fanlin Meng, for his invaluable guidance and encouragement throughout this project. Special thanks to my family. friends, and girlfriend for their support.
 
 ## **Contact**
 For any questions about this project, feel free to contact me at rogerthant33@gmail.com
