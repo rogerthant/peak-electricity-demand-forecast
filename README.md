@@ -7,7 +7,7 @@ This repository contains materials from my MSc Data Science dissertation, which 
 - The full dissertation is provided as `dissertation.pdf`, detailing the methodology, results, and implications of the study.
 
 ### **Notebook**
-- **7C-Model-Development-Cbrt-No-Scaler.ipynb**: Optimized model with cube root transformation of the target variable. <br>
+- `Model-Development-Cbrt-No-Scaler.ipynb`: Optimized model with cube root transformation of the target variable. <br>
 
   Note: Only the notebook related to the final model development is included to comply with data safeguarding policies.
 
@@ -15,7 +15,7 @@ This repository contains materials from my MSc Data Science dissertation, which 
 - Figures and visualizations used in the dissertation are included in the `supplementary/figures` folder.
 
 ## **Data Sources**
-- Weather datasets used in this study are included in the `weather data` folder. These were retrieved using [Visual Crossing](https://www.visualcrossing.com/weather/weather-data-services) and merged by me.
+- Weather datasets used in this study are included in the `weather-data` folder. These were retrieved using [Visual Crossing](https://www.visualcrossing.com/weather/weather-data-services) and merged by me.
 - The Low Carbon London dataset is not provided in this repository due to licensing restrictions. However, it can be accessed via the UK Data Service:  [Low Carbon London Dataset](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=7857).
 
 ## **Acknowledgements**
