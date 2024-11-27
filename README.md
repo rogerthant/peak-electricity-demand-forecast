@@ -3,27 +3,37 @@
 This repository contains materials from my MSc Data Science dissertation, which was awarded a **Distinction** at the University of Manchester. The project focuses on developing machine learning models to forecast household-level day-ahead peak electricity demand using the Low Carbon London dataset and detailed London weather data.
 
 ## Abstract
-This study develops and evaluates machine learning models for forecasting day-ahead peak 
-electricity demand at the household level, addressing a gap in the literature by integrating 
-diverse household-level data sources. Using the Low Carbon London project dataset and 
-weather data, the research applies XGBoost models with various feature sets. The optimal 
-model achieves a test WAPE of 29.63% with 15 features. Recent consumption patterns 
-emerge as the most significant predictors, while household characteristics play a less 
-prominent role than hypothesized. The study reveals that carefully selected subsets of features 
-can achieve comparable performance to larger feature sets, suggesting potential for efficient, 
-streamlined forecasting models. Limitations include underestimation of high consumption 
-events and potential bias from opt-in recruitment. The findings have implications for data 
-collection strategies and model development in the energy sector, emphasizing the 
-importance of high-quality recent consumption data for short-term forecasting. Future 
-research directions are proposed to address limitations and further refine forecasting 
-techniques.
+- Objective: Develop machine learning models to forecast day-ahead peak electricity demand at the household level
+- Research Questions:
+  - How accurately can machine learning models predict day-ahead peak electricity demand at the household level?
+  - What are the most significant factors influencing this demand?
+  - How does the inclusion of household-specific survey data and dynamic pricing information impact forecast accuracy? 
+- Methodology:
+  - Used Low Carbon London project dataset and weather data
+  - Applied XGBoost models with various feature sets
+- Key Findings:
+  - Optimal model achieved a test WAPE of 29.63% with 15 features
+  - Recent consumption patterns were the most significant predictors
+  - While marginally increasing model accuracy, household characteristics played a less prominent role than expected
+- Key Insights:
+  - Carefully selected feature subsets can achieve comparable performance to larger sets
+  - Suggests potential for efficient, streamlined forecasting models
+- Limitations:
+  - Underestimation of high consumption events
+  - Potential bias from opt-in recruitment
+- Implications:
+  - Highlights importance of high-quality recent consumption data for short-term forecasting
+  - Provides directions for future research in energy sector modeling
 
 ## Key Components
 ### Dissertation
 - The full dissertation is provided as `dissertation.pdf`, detailing the methodology, results, and implications of the study.
 
 ### Notebook
-- `Model-Development-Cbrt-No-Scaler.ipynb`: Optimized model with cube root transformation of the target variable. <br>
+- `Model-Development-Cbrt-No-Scaler.ipynb`: Final XGBoost model development notebook
+  - Demonstrates the optimal approach using the cube root transformation of the target variable
+  - Showcases feature selection and model performance evaluation
+  - Selects the best model and analyzes its performance in detail
 
   Note: Only the notebook related to the final model development is included to comply with data safeguarding policies.
 
