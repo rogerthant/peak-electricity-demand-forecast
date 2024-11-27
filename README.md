@@ -12,7 +12,7 @@ This repository contains materials from my MSc Data Science dissertation, which 
   Note: Only the notebook related to the final model development is included to comply with data safeguarding policies.
 
 ### **Supplementary Materials**
-- Figures and visualizations used in the dissertation are included in the `supplementary/figures` folder.
+- Figures used in the dissertation are included in the `supplementary/key-figures` folder.
 
 ## **Data Sources**
 - Weather datasets used in this study are included in the `weather-data` folder. These were retrieved using [Visual Crossing](https://www.visualcrossing.com/weather/weather-data-services) and merged by me.
